@@ -1,0 +1,46 @@
+.main-container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    
+}
+
+.left-section {
+    width: 60%;
+    padding: 10px;
+    width: 100%;
+    background-color:rgb(162, 132, 132);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:20px;
+    
+}
+.right-section {
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.input-section > input {
+    height: 10px;
+    padding: 12px 20px;
+    font-size: medium;
+    border: 1px solid rgb(91, 63, 63);
+    border-radius: 3px;
+}
+
+
+.addBtn {
+    width: 25px;
+    height: 25px;
+}
+
+.reset-btn {
+    padding: 10px;
+    width: 70px;
+    color: black;
+    background-color: rgb(111, 205, 208);
+}
